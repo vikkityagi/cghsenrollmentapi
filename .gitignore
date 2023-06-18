@@ -1,0 +1,4 @@
+/target/
+/.classpath
+/src/main/resources/application.properties
+ src/main/resources/public/

@@ -1,0 +1,41 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>100</x><y>130</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;CGHSCity&gt;&gt;
+Package::io.swagger
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;CGHSUser&gt;&gt;
+Package::io.swagger
+{Some Properties}
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>440</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;CGHSIncharge&gt;&gt;
+Package::io.swagger
+{Some Properties}
+--
+-id: Long
+-cghsCityId: FK
+-cghsUserId: FK
+--
+#Operation(i: int): int
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>310</y><w>230</w><h>170</h></coordinates><panel_attributes>lt=-
+m1=n
+m2=1
+headed by&gt;</panel_attributes><additional_attributes>10;10;210;150</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>300</y><w>220</w><h>160</h></coordinates><panel_attributes>lt=-
+m1=n
+m2=1
+belongs to&gt;</panel_attributes><additional_attributes>200;10;10;140</additional_attributes></element></diagram>
